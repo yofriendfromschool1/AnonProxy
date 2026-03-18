@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "AnonProxy Extension",
+  "version": "1.0",
+  "description": "Anonymous browsing extension routing through local desktop proxy.",
+  "permissions": [
+    "proxy",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AnonProxy"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
