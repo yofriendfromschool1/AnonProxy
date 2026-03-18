@@ -39,7 +39,7 @@ AnonProxy consists of two core components working in tandem:
 Ensure you have **Python 3** installed on your system. No external dependencies are required.
 
 ```bash
-git clone https://github.com/yourusername/AnonProxy.git
+git clone https://github.com/yofriendfromschool1/AnonProxy.git
 cd AnonProxy/desktop-app
 python3 app.py
 ```
