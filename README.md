@@ -2,7 +2,7 @@
   <img src="extension/icons/icon.png" alt="AnonProxy Logo" width="128" height="128">
   <h1>AnonProxy</h1>
   <p>A zero-log, anonymous Chrome extension & local desktop proxy built for maximum privacy.</p>
-</div>
+</div> 
 
 ---
 
