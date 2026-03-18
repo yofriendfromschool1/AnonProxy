@@ -25,7 +25,9 @@ If your network is heavily censored and you need an aggressive, Lantern/Tor-styl
    python3 app.py
    ```
 3. **How it works:** `app.py` rapidly tests hundreds of SOCKS5 nodes concurrently from multiple backup APIs. It instantly drops dead nodes and automatically rotates to working ones if a connection drops, ensuring you always have a bypass.
-4. Point your OS proxy settings or CLI tools (like `curl -x http://127.0.0.1:8080 https://ipleak.net`) to the local port. (Note: The desktop app creates an HTTP proxy endpoint on port 8080).
+4. Point your OS proxy settings or CLI tools to the local port:
+   `curl -k -x http://127.0.0.1:8080 https://ipleak.net` 
+   *(Note: Free public proxies frequently perform SSL interception, which causes "self-signed certificate" errors. Adding `-k` tells curl to ignore certificate chain errors so the connection succeeds).*
 
 ## 🦊 The Chrome Extension (Browser Only)
 
